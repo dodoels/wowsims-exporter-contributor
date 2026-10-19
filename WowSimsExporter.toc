@@ -24,6 +24,10 @@
 embeds.xml
 #@end-non-debug@
 
+Locales\Locale.lua
+Locales\enUS.lua
+Locales\zhCN.lua
+
 extras.lua [AllowLoadGameType vanilla, tbc, wrath, cata, forever]
 Shared.lua
 Conditional_Mists.lua [AllowLoadGameType mists]

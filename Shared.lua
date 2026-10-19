@@ -12,14 +12,16 @@ Env.IS_CLIENT_SUPPORTED = Env.IS_CLASSIC_ERA or Env.IS_CLASSIC_ERA_SOD or Env.IS
 Env.VERSION = C_AddOns.GetAddOnMetadata(select(1, ...), "Version")
 Env.AUTHORS = C_AddOns.GetAddOnMetadata(select(1, ...), "Author")
 
+local L = Env.L
+
 Env.supportedClientNames = {
-    "Classic: Mists of Pandaria",
-    "Classic: Cataclysm",
-    "Classic: WotLK",
-    "Classic: TBC",
-    "Classic: SoD",
-    "Classic: Era/Anniversary",
-    "Forever"
+    L["Classic: Mists of Pandaria"],
+    L["Classic: Cataclysm"],
+    L["Classic: WotLK"],
+    L["Classic: TBC"],
+    L["Classic: SoD"],
+    L["Classic: Era/Anniversary"],
+    L["Forever"],
 }
 
 -- SkillLine.db2
