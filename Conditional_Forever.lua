@@ -4,6 +4,9 @@ if not Env.IS_FOREVER then return end
 local WSE = Env
 
 Env.prelink = "https://www.wowsims.com/forever/"
+-- China mirror, offered next to the international site on zhCN clients.
+-- Only the root is served there; spec sub-paths are not.
+Env.cnSimLink = "https://wowsimscn.com/"
 
 Env.supportedClasses = {
     "hunter",
